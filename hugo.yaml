@@ -1,0 +1,139 @@
+baseURL: https://example.invalid/
+title: What we make for ourselves
+locale: en-AU
+defaultContentLanguage: en
+theme: no-fate
+copyright: What we make for ourselves
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 12
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+taxonomies:
+  tag: tags
+  topic: topics
+  category: categories
+
+menu:
+  main:
+    - identifier: essays
+      name: Essays
+      url: /essays/
+      weight: 10
+      params:
+        secondary: arguments, questions, notes
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 20
+      params:
+        secondary: documents, images, histories
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 30
+      params:
+        secondary: systems, objects, experiments
+    - identifier: record
+      name: Record
+      url: /record/
+      weight: 40
+      params:
+        secondary: publications, talks, selected work
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 50
+      params:
+        secondary: biography, contact, policies
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 60
+
+params:
+  author: The Night Shift Committee
+  description: Notes on tools, rituals, records, and the beautiful trouble of doing it ourselves.
+  defaultTheme: auto
+  disableThemeToggle: false
+  disableSpecial1stPost: true
+  mainSections:
+    - essays
+    - questions
+    - notes
+    - archives
+    - projects
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowShareButtons: false
+  hideAuthor: true
+  footer:
+    hideCopyright: true
+    hidePoweredBy: true
+    text: "Made with [No Fate](https://github.com/OliverObst/no-fate) by [Oliver Obst](https://oliver.obst.eu/) and [Hugo](https://gohugo.io/)."
+  label:
+    text: What we make for ourselves
+  noFate:
+    style: wild
+    defaultMode: editorial
+    defaultAccent: signal
+    showThemeToggle: true
+    showSearch: true
+    showReadingTime: true
+    showPropositions: true
+    enableImageProcessing: true
+    validateContentModel: true
+    strictHomeSelections: true
+    wild:
+      masthead: "Independent notes / practical disturbances"
+      issue: "Issue 01 / keep the receipt"
+    home:
+      featuredProposition: example-maintenance-is-design
+    archive:
+      showArtefactNumbers: true
+      showRights: true
+    images:
+      widths:
+        - 480
+        - 800
+        - 1200
+        - 1600
+      webpQuality: 82
+    record:
+      dataFile: record
+      enableClientFilters: true
+      selectedGroupBy: collection
+      filterFields:
+        - year
+        - type
+        - topic
+      highlightCreators:
+        - Iona Bramble
+      showAbstracts: false
+
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+            - ['\[', '\]']
+            - ['$$', '$$']
+          inline:
+            - ['\(', '\)']
+        enable: true
+    parser:
+      wrapStandAloneImageWithinParagraph: false
+      attribute:
+        block: true
+        title: true
+    renderer:
+      unsafe: false
