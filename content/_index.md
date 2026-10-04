@@ -1,6 +1,6 @@
 ---
-title: "What we make for ourselves"
-description: "Notes on tools, rituals, records, and the beautiful trouble of doing it ourselves."
+title: "Nacho's blog"
+description: "Mostly databases and operating systems!"
 demo: true
 
 content:
@@ -10,7 +10,6 @@ home:
   modules:
     - "opening"
     - "featured_argument"
-    - "visual_interruption"
     - "questions"
     - "featured_archive"
     - "selected_writing"
@@ -18,11 +17,9 @@ home:
     - "formal_record"
 
 opening:
-  headline: "What we make for ourselves"
-  deck: "Notes on tools, rituals, records, and the beautiful trouble of doing it ourselves."
-  image: "images/demo-opening.svg"
-  image_alt: "A red hand-drawn wrench crossing a black grid of labels and arrows"
-
+  headline: "Nacho's blog"
+  deck: "Mostly databases and operating systems!"
+  
 featured_argument: "/essays/maintenance-is-a-design-material/"
 featured_archive: "/archives/tide-room-ledgers/"
 
@@ -33,11 +30,6 @@ selected_writing:
   - "/essays/maintenance-is-a-design-material/"
   - "/notes/calibrating-the-window/"
 
-visual_interruption:
-  image: "images/demo-field-archive.svg"
-  image_alt: "A tilted contact sheet of numbered red, black and cream observation cards"
-  caption: "Tuesday's evidence, arranged by whoever arrived first."
-
 current_projects:
   - "/projects/lantern-index/"
 
@@ -46,16 +38,15 @@ formal_record: "/record/"
 visual:
   mode: "editorial"
   wild_title_lines:
-    - "What we"
-    - "make"
-    - "for"
-    - "ourselves"
-  wild_reference: "Ref. WMFO–01 / Built by hand"
+    - "Computer"
+    - "Science"
+    - "studies"
+    - "the machine"
+  wild_reference: "Made with <3"
 ---
 
-What we inherit arrives with instructions.
+A digital garden.
 
-What we make for ourselves arrives with fingerprints, pencil marks, spare
-screws, and a name nobody agreed on. This is a publication about useful
-contraptions, stubborn questions, maintenance rituals, and records that refuse
-to stay tidy.
+This is a site for self-expression to share what I learn through my journey as a software engineer.
+Here you’ll find systems-related topics.
+Please remember that all of the opinions in this corner are entirely of my own.

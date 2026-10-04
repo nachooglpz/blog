@@ -1,9 +1,9 @@
 baseURL: https://example.invalid/
-title: What we make for ourselves
+title: Nacho's Blog
 locale: en-AU
 defaultContentLanguage: en
 theme: no-fate
-copyright: What we make for ourselves
+# copyright: What we make for ourselves
 enableRobotsTXT: true
 
 pagination:
@@ -22,30 +22,18 @@ taxonomies:
 
 menu:
   main:
-    - identifier: essays
-      name: Essays
-      url: /essays/
+    - identifier: writing
+      name: Writing
+      url: /blog/
       weight: 10
       params:
-        secondary: arguments, questions, notes
+        secondary: ideas, arguments, essays
     - identifier: archives
       name: Archives
       url: /archives/
       weight: 20
       params:
         secondary: documents, images, histories
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 30
-      params:
-        secondary: systems, objects, experiments
-    - identifier: record
-      name: Record
-      url: /record/
-      weight: 40
-      params:
-        secondary: publications, talks, selected work
     - identifier: about
       name: About
       url: /about/
@@ -58,17 +46,16 @@ menu:
       weight: 60
 
 params:
-  author: The Night Shift Committee
+  author: Luis Ignacio
   description: Notes on tools, rituals, records, and the beautiful trouble of doing it ourselves.
   defaultTheme: auto
   disableThemeToggle: false
   disableSpecial1stPost: true
   mainSections:
-    - essays
+    - entries
     - questions
     - notes
     - archives
-    - projects
   ShowReadingTime: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
@@ -78,9 +65,9 @@ params:
   footer:
     hideCopyright: true
     hidePoweredBy: true
-    text: "Made with [No Fate](https://github.com/OliverObst/no-fate) by [Oliver Obst](https://oliver.obst.eu/) and [Hugo](https://gohugo.io/)."
+    text: "Everything made by hand with <3"
   label:
-    text: What we make for ourselves
+    text: Nacho's blog
   noFate:
     style: wild
     defaultMode: editorial
@@ -93,8 +80,8 @@ params:
     validateContentModel: true
     strictHomeSelections: true
     wild:
-      masthead: "Independent notes / practical disturbances"
-      issue: "Issue 01 / keep the receipt"
+      masthead: "Cool topics in Computer Science"
+      issue: "Mexico"
     home:
       featuredProposition: example-maintenance-is-design
     archive:

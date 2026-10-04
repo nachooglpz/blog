@@ -1,6 +1,6 @@
 ---
 title: "Archives"
-description: "Ledgers, instruments, weather, errors, and things found in the wrong drawer."
+description: "A curated collection of papers, software, and links that I mostly do not own."
 demo: true
 outputs:
   - HTML
@@ -36,5 +36,3 @@ listing:
       label: "Collections"
       param: "content.collection"
 ---
-
-Receipts from impossible institutions, filed with unreasonable care.

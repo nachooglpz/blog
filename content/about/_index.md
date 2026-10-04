@@ -1,6 +1,6 @@
 ---
-title: "Why make anything?"
-description: "Because the ready-made version keeps asking for a password."
+title: "About"
+description: "Welcome to my own corner on the internet!"
 demo: true
 
 content:
@@ -10,16 +10,14 @@ visual:
   mode: "record"
 ---
 
-Some things arrive polished, sealed, and impossible to repair. Other things
-arrive with a loose handle and a person nearby who remembers why it was built
-that way.
+My name is Luis (he/him), although people usually call me Nacho. I am Computer Science student interested in most things systems-related.
 
-We are interested in the second kind.
+This is a site for self-expression to share what I learn through my journey as a software engineer.
+Here you’ll find systems-related topics, like database and operating systems.
+Please remember that all of the opinions in this corner are entirely of my own.
 
-*What we make for ourselves* collects arguments, workshop notes, odd projects,
-questions without clean answers, and records of the work required after launch.
-It prefers a useful repair to a perfect replacement and a visible disagreement
-to a suspiciously tidy consensus.
+Beyond Computer Science, I am a volunteer at a local NGO, and I like to play the violin, exercise, and watch analog horror videos.
 
-The kettle is load-bearing. The minutes are annotated in three incompatible
-colours. Somebody has labelled the emergency biscuits “infrastructure”.
+As of August of 2026, I am an intern @ Oracle, researching compression optimization for columnar storage.
+
+This site is still under construction, please be patient!
