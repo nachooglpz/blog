@@ -9,32 +9,14 @@ content:
 home:
   modules:
     - "opening"
-    - "featured_argument"
+    - "featured"
     - "questions"
-    - "featured_archive"
-    - "selected_writing"
-    - "current_work"
-    - "formal_record"
+    - "from-the-archive"
 
 opening:
   headline: "Nacho's blog"
   deck: "Mostly databases and operating systems!"
   
-featured_argument: "/essays/maintenance-is-a-design-material/"
-featured_archive: "/archives/tide-room-ledgers/"
-
-questions:
-  - "/questions/what-are-we-optimising/"
-
-selected_writing:
-  - "/essays/maintenance-is-a-design-material/"
-  - "/notes/calibrating-the-window/"
-
-current_projects:
-  - "/projects/lantern-index/"
-
-formal_record: "/record/"
-
 visual:
   mode: "editorial"
   wild_title_lines:
