@@ -16,7 +16,7 @@ visual:
   mode: "archive"
 
 listing:
-  featured: "/archives/tide-room-ledgers/"
+  featured: "/archives/archives-page/"
   featured_label: "Open this box first"
   index_label: "Chronological index"
   filter_fields:

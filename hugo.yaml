@@ -52,7 +52,7 @@ params:
   disableThemeToggle: false
   disableSpecial1stPost: true
   mainSections:
-    - entries
+    - blog
     - questions
     - notes
     - archives
