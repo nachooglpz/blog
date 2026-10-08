@@ -1,10 +1,10 @@
 propositions:
-  - id: example-question-the-premise
-    title: Good work begins by questioning the premise.
+  - id: databases
+    title: All-things databases!
     demo: true
-  - id: example-tools-reveal-assumptions
-    title: Tools should reveal their assumptions.
+  - id: cool-code
+    title: Cool coding topics that I didn’t learn at school.
     demo: true
-  - id: example-maintenance-is-design
-    title: Maintenance is part of design.
+  - id: cool-design
+    title: Cool program designs and study cases.
     demo: true

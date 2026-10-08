@@ -65,7 +65,7 @@ params:
   footer:
     hideCopyright: true
     hidePoweredBy: true
-    text: "Everything made by hand with <3"
+    text: "A digital garden curated with <3"
   label:
     text: Nacho's blog
   noFate:
