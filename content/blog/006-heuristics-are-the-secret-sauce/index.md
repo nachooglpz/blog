@@ -64,7 +64,7 @@ Some of the common heuristics that are implemented in [databases](https://cs186b
     And this way, [sort-merge](https://www.geeksforgeeks.org/dbms/merge-join-in-dbms/)
     or [hashing](https://en.wikipedia.org/wiki/Hash_join) take less space.
 
-3. Avoiding cartesian products
+3. Avoiding Cartesian products
     Given the a choice, do [theta-joins](https://stackoverflow.com/questions/7870155/difference-between-a-theta-join-equijoin-and-natural-join)
     rather than [cross-product](https://www.geeksforgeeks.org/sql/sql-cross-join/).
     And although this approach might not always be a good solution, it allows the optimizer to keep the plan space small.
@@ -74,7 +74,7 @@ Heuristics can be found all over computer science disciplines to describe techni
 
 ## Empirical Inquiry
 
-The [etimology](https://www.etymonline.com/word/heuristic) of the word *heuristic* means *"serving to discover or find out"*, and computer science,
+The [etymology](https://www.etymonline.com/word/heuristic) of the word *heuristic* means *"serving to discover or find out"*, and computer science,
 as [Allen Newell and Herbert Simon might argue](https://dl.acm.org/doi/abs/10.1145/360018.360022), is just another empirical discipline.
 The scientists, in their 1975 Turing Lecture, presented a thesis for computer science as the discipline to study the machine from an empirical perspective.
 Their argument lies in that, unlike other sciences, some of the forms of observation and experience do not fit the stereotype of the experimental methods.
@@ -107,5 +107,5 @@ To this day Google noticeably still [works on IR research](https://research.goog
 to keep on improving their search engine.
 
 It is through the study of design and implementation of systems for machines,
-as well as developing the heuristics that pave the algorithms that Google (and other IR prodcuts) implement,
+as well as developing the heuristics that pave the algorithms that Google (and other IR products) implement,
 that these companies and products maintain user preference.
