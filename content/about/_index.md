@@ -18,6 +18,6 @@ Please remember that all of the opinions in this corner are entirely of my own.
 
 Beyond Computer Science, I am a volunteer at a local NGO, and I like to play the violin, exercise, and watch analog horror videos.
 
-As of August of 2026, I am an intern @ Oracle, researching compression optimization for columnar storage.
+As of 2026, I am an intern @ Oracle, researching compression optimization for columnar storage.
 
 This site is still under construction, please be patient!
