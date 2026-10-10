@@ -33,7 +33,7 @@ menu:
       url: /archives/
       weight: 20
       params:
-        secondary: documents, images, histories
+        secondary: documents, papers, histories
     - identifier: about
       name: About
       url: /about/

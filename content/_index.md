@@ -9,14 +9,26 @@ content:
 home:
   modules:
     - "opening"
-    - "featured"
+    - "featured_argument"
     - "questions"
-    - "from-the-archive"
+    - "selected_writing"
+    - "featured_archive"
 
 opening:
   headline: "Nacho's blog"
   deck: "Mostly databases and operating systems!"
-  
+
+featured_argument: "/blog/006-heuristics-are-the-secret-sauce/"
+
+questions:
+  - ""
+
+selected_writing:
+  - "/blog/003-what-happened-to-map-reduce/"
+  - "/blog/004-the-case-for-branchless-programming/"
+
+featured_archive: "/archives/011-computer-science-as-empirical-inquiry-symbols-and-search/"
+
 visual:
   mode: "editorial"
   wild_title_lines:
