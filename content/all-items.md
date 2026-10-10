@@ -5,7 +5,6 @@ url: "/all/"
 date: 2026-01-01
 lastmod: 2026-01-01
 summary: "A chronological index of essays, notes, questions, projects, and records."
-demo: true
 
 content:
   format: "utility"

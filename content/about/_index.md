@@ -1,7 +1,6 @@
 ---
 title: "About"
 description: "Welcome to my own corner on the internet!"
-demo: true
 
 content:
   format: "page"

@@ -6,7 +6,6 @@ lastmod: 2026-09-16
 summary: "Stonebraker and Pavlo's analysis of 20 years of data models."
 tags:
     - Database
-demo: true
 
 external_url: "https://courses.cs.washington.edu/courses/csep544/25wi/papers/goes-around-and-around.pdf"
 

@@ -6,7 +6,6 @@ lastmod: 2026-08-30
 summary: "A Joke about the Church of EMACS."
 tags:
   - Open Source
-demo: true
 
 external_url: "https://www.gnu.org/fun/jokes/gospel.html"
 

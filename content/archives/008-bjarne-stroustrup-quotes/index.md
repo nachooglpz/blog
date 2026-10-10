@@ -11,7 +11,6 @@ tags:
     - Performance
     - Programming
     - Software
-demo: true
 
 external_url: "https://www.stroustrup.com/quotes.html"
 

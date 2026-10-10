@@ -7,7 +7,6 @@ summary: "Mail discussion about Linus Torvald's redesign proposal for O_DIRECT."
 tags:
   - Open Source
   - Linux
-demo: true
 
 external_url: "https://yarchive.net/comp/linux/o_direct.html"
 

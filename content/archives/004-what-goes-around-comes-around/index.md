@@ -6,7 +6,6 @@ lastmod: 2026-09-16
 summary: "Sonebraker and Hellerstein's summary of 35 years of data models."
 tags:
     - Database
-demo: true
 
 external_url: "https://people.cs.umass.edu/~yanlei/courses/CS691LL-f06/papers/SH05.pdf"
 

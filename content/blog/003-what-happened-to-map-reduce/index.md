@@ -11,7 +11,6 @@ topics:
   - database
   - dataflow-engines
   - Google
-demo: true
 
 content:
   format: "essay"

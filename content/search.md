@@ -5,7 +5,6 @@ date: 2026-01-01
 lastmod: 2026-01-01
 summary: "Search essays, notes, questions, projects, and records."
 placeholder: "Search the cupboards"
-demo: true
 
 content:
   format: "utility"

@@ -9,7 +9,6 @@ tags:
     - Performance
     - Programming
     - Software
-demo: true
 
 external_url: "https://users.cs.utah.edu/~elb/folklore/mel.html"
 

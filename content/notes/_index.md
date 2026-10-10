@@ -1,7 +1,6 @@
 ---
 title: "Notes"
 description: "Brief observations, loose ends, and measurements taken at the wrong moment."
-demo: true
 
 content:
   format: "section"

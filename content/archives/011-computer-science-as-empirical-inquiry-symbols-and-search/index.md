@@ -8,7 +8,6 @@ tags:
     - Research
     - Heuristics
     - Software
-demo: true
 
 external_url: "https://dl.acm.org/doi/abs/10.1145/360018.360022"
 

@@ -13,7 +13,6 @@ topics:
   - databases
   - search-problems
   - AI
-demo: true
 
 content:
   format: "essay"

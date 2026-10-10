@@ -7,7 +7,6 @@ summary: "David J. DeWitt and Michael Stonebraker's views on MapReduce."
 tags:
     - Cloud
     - Database
-demo: true
 
 external_url: "https://homes.cs.washington.edu/~billhowe/mapreduce_a_major_step_backwards.html"
 

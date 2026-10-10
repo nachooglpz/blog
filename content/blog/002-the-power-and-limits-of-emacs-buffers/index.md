@@ -13,7 +13,6 @@ topics:
   - design
   - data-structures
   - Emacs
-demo: true
 
 content:
   format: "essay"

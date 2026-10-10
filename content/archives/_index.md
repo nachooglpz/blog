@@ -1,7 +1,6 @@
 ---
 title: "Archives"
 description: "A curated collection of papers, software, and links that I mostly do not own."
-demo: true
 outputs:
   - HTML
   - RSS
@@ -16,7 +15,7 @@ visual:
   mode: "archive"
 
 listing:
-  featured: "/archives/archives-page/"
+  featured: "/archives/011-computer-science-as-empirical-inquiry-symbols-and-search/"
   featured_label: "Open this box first"
   index_label: "Chronological index"
   filter_fields:

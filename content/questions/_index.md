@@ -1,7 +1,6 @@
 ---
 title: "Questions"
 description: "Premises placed under a bright lamp until they confess."
-demo: true
 
 content:
   format: "section"

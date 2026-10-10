@@ -12,7 +12,6 @@ topics:
   - computer-science
   - research
   - heuristics
-demo: true
 
 content:
   format: "essay"

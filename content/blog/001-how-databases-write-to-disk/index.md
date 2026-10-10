@@ -12,7 +12,6 @@ topics:
   - databases
   - syscalls
   - i/o
-demo: true
 
 content:
   format: "essay"

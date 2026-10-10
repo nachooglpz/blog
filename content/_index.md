@@ -1,7 +1,6 @@
 ---
 title: "Nacho's blog"
 description: "Mostly databases and operating systems!"
-demo: true
 
 content:
   format: "home"

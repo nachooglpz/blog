@@ -1,10 +1,7 @@
 propositions:
   - id: databases
     title: All-things databases!
-    demo: true
   - id: cool-code
     title: Cool coding topics that I didn’t learn at school.
-    demo: true
   - id: cool-design
     title: Cool program designs and study cases.
-    demo: true

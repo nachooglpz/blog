@@ -6,7 +6,6 @@ lastmod: 2026-09-16
 summary: "Andy Pavlo's lecture on his paper \"What Goes Around Comes Around... And Around...\"."
 tags:
     - Database
-demo: true
 
 external_url: "https://www.youtube.com/watch?v=8Woy5I511L8"
 

@@ -14,7 +14,6 @@ topics:
   - software-design
   - performance
   - software
-demo: true
 
 content:
   format: "essay"

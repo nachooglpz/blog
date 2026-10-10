@@ -7,7 +7,6 @@ summary: "Ted Codd's paper which established the equivalence in expressive power
 tags:
     - Database
     - Research
-demo: true
 
 external_url: "https://docslib.org/doc/2384210/relational-completeness-of-data-base-sublanguages"
 

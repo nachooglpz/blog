@@ -6,7 +6,6 @@ lastmod: 2026-10-01
 summary: "Selinger (et al.) paper on the cost-based optimizer."
 tags:
     - Database
-demo: true
 
 external_url: "https://courses.cs.duke.edu/compsci516/cps216/spring03/papers/selinger-etal-1979.pdf#G429298"
 

@@ -1,7 +1,6 @@
 ---
 title: "Blog"
 description: "Cool topics that caught my attention"
-demo: true
 outputs:
   - HTML
   - RSS
