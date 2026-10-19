@@ -68,7 +68,7 @@ Flash SSDs differ from disks in two properties:
 
     b. Device lifetime is tied to volume of physical writes.
 
-2. SSDs exhibit WA because wirtes are performed at page level (4-16 KiB), while erases reclaim entire blocks (many pages).
+2. SSDs exhibit WA because writes are performed at page level (4-16 KiB), while erases reclaim entire blocks (many pages).
 
     a. When a block containing still-vaid pages must be erased to free space, SSD first relocates those pages.
 
@@ -77,7 +77,7 @@ Flash SSDs differ from disks in two properties:
 Consider a DBMS issuing a write request to page P.
 To free space, SSD's garbage collector selects a block, and if there are pages in that block that are still valid, it copies them elsewhere before erasing that block.
 
-Thus, one logical wirte of page P results in more physical writes (reducing SSD lifespan and available bandwidth).
+Thus, one logical write of page P results in more physical writes (reducing SSD lifespan and available bandwidth).
 
 ### DBMS writes transformed by SSD
 
