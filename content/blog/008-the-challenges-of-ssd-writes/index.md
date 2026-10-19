@@ -1,6 +1,6 @@
 ---
 title: "The Challenges of SSD Writes"
-subtitle: "Databases are best suited to define write behavior for SSDs."
+subtitle: "Databases are well suited to define write strategies for SSDs."
 date: 2026-10-18
 lastmod: 2026-10-18
 summary: "SSDs work in a different way than disks, and databases need to define a write behavior accordingly."
