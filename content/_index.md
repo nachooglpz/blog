@@ -17,7 +17,7 @@ opening:
   headline: "Nacho's blog"
   deck: "Mostly databases and operating systems!"
 
-featured_argument: "/blog/006-heuristics-are-the-secret-sauce/"
+featured_argument: "/blog/008-the-challenges-of-ssd-writes/"
 
 questions:
   - ""
