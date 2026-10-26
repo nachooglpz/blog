@@ -61,6 +61,7 @@ params:
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   ShowShareButtons: false
+  ShowFullTextinRSS: true
   hideAuthor: true
   footer:
     hideCopyright: true
