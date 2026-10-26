@@ -29,10 +29,10 @@
                 <li><span>Email</span><a href="mailto:{{ . }}">{{ . }}</a></li>
                 {{- end }}
                 {{- with $blueskyHandle }}
-                <li><span>Bluesky</span><a href="https://bsky.app/profile/{{ $blueskyProfile }}" rel="me">@{{ . }}</a></li>
+                <li><span>Bluesky</span><a href="https://bsky.app/profile/{{ $blueskyProfile }}" target="_blank" rel="me noopener noreferrer">@{{ . }}<span class="nf-visually-hidden"> (opens in a new tab)</span></a></li>
                 {{- end }}
                 {{- with $keybaseHandle }}
-                <li><span>Keybase</span><a href="https://keybase.io/{{ . }}" rel="me">@{{ . }}</a></li>
+                <li><span>Keybase</span><a href="https://keybase.io/{{ . }}" target="_blank" rel="me noopener noreferrer">@{{ . }}<span class="nf-visually-hidden"> (opens in a new tab)</span></a></li>
                 {{- end }}
             </ul>
         </aside>

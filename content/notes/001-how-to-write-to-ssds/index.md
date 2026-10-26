@@ -125,4 +125,4 @@ Total WAF, and not individual components, must guide optimization.
 
 The following sections are out-of-place-based optimizations that, taken together, minimize total WAF.
 
-- [Reducing writes with compression](https://nachooglpz.pages.dev/notes/002-reducing-writes-with-compression/)
+- [Reducing writes with compression](/notes/002-reducing-writes-with-compression/)

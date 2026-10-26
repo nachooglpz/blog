@@ -1,0 +1,18 @@
+{{- $url := urls.Parse .Destination -}}
+{{- $scheme := lower $url.Scheme -}}
+{{- $isWeb := in (slice "http" "https") $scheme -}}
+{{- $isExternal := and $url.IsAbs $isWeb (ne $url.Host (urls.Parse site.BaseURL).Host) -}}
+{{- $target := index .Attributes "target" | default "" -}}
+{{- if and $isExternal (not $target) }}{{ $target = "_blank" }}{{ end -}}
+{{- $rel := "" -}}
+{{- if $isExternal }}{{ $rel = "external" }}{{ end -}}
+{{- if eq $target "_blank" }}{{ $rel = strings.TrimSpace (printf "%s noopener noreferrer" $rel) }}{{ end -}}
+<a href="{{ .Destination | safeURL }}"
+    {{- with .Title }} title="{{ . }}"{{ end -}}
+    {{- with $target }} target="{{ . }}"{{ end -}}
+    {{- with $rel }} rel="{{ . }}"{{ end -}}
+    {{- if $isExternal }} class="nf-external-link"{{ end -}}>
+    {{- .Text -}}
+    {{- if $isExternal }}<span class="nf-visually-hidden"> ({{ i18n "nf_external_link" | default "External link" }}{{ if eq $target "_blank" }}, opens in a new tab{{ end }})</span>{{ end -}}
+</a>
+{{- /* Chomp trailing whitespace for adjacent inline elements. */ -}}
