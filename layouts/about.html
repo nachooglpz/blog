@@ -1,0 +1,42 @@
+{{- define "main" }}
+{{- $contacts := .Params.contacts | default dict -}}
+{{- $email := strings.TrimSpace ($contacts.email | default "") -}}
+{{- $bluesky := strings.TrimSpace ($contacts.bluesky | default "") -}}
+{{- $keybase := strings.TrimSpace ($contacts.keybase | default "") -}}
+{{- $blueskyHandle := strings.TrimPrefix "@" $bluesky -}}
+{{- $keybaseHandle := strings.TrimPrefix "@" $keybase -}}
+{{- $blueskyProfile := $blueskyHandle -}}
+{{- if and $blueskyProfile (not (in $blueskyProfile ".")) -}}
+    {{- $blueskyProfile = printf "%s.bsky.social" $blueskyProfile -}}
+{{- end -}}
+<div class="nf-list nf-about" data-page-mode="editorial">
+    <header class="page-header">
+        {{- partial "breadcrumbs.html" . }}
+        <h1>{{ .Title }}</h1>
+        {{- with .Description }}<p class="post-description">{{ . | markdownify }}</p>{{ end }}
+    </header>
+
+    <div class="nf-about__grid">
+        <div class="post-content md-content nf-prose nf-about__copy">
+            {{ .Content }}
+        </div>
+
+        {{- if or $email $blueskyHandle $keybaseHandle }}
+        <aside class="nf-about__contacts" aria-labelledby="nf-about-contacts-heading">
+            <h2 id="nf-about-contacts-heading">Find me</h2>
+            <ul>
+                {{- with $email }}
+                <li><span>Email</span><a href="mailto:{{ . }}">{{ . }}</a></li>
+                {{- end }}
+                {{- with $blueskyHandle }}
+                <li><span>Bluesky</span><a href="https://bsky.app/profile/{{ $blueskyProfile }}" rel="me">@{{ . }}</a></li>
+                {{- end }}
+                {{- with $keybaseHandle }}
+                <li><span>Keybase</span><a href="https://keybase.io/{{ . }}" rel="me">@{{ . }}</a></li>
+                {{- end }}
+            </ul>
+        </aside>
+        {{- end }}
+    </div>
+</div>
+{{- end }}

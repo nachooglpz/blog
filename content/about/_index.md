@@ -5,8 +5,15 @@ description: "Welcome to my own corner on the internet!"
 content:
   format: "page"
 
+layout: "about"
+
 visual:
-  mode: "record"
+  mode: "editorial"
+
+contacts:
+  email: "nachooglpz@proton.me"
+  bluesky: "@nachoo.bsky.social"
+  keybase: "@nachooglpz"
 ---
 
 My name is Luis (he/him), although people usually call me Nacho. I am Computer Science student interested in most things systems-related.
