@@ -1,10 +1,45 @@
 /* Keep every month in the content column of the archive year grid. */
+:root[data-nf-style="wild"] .main:has(.archive-posts) {
+    max-width: none;
+    width: calc(100% - 1.5rem);
+}
+
+:root[data-nf-style="wild"] .main:has(.archive-posts) > .nf-list {
+    max-width: none;
+}
+
+.archive-year {
+    grid-template-columns: clamp(5rem, 8vw, 9rem) minmax(0, 1fr);
+}
+
 .archive-year > .archive-month {
     grid-column: 2;
     min-width: 0;
 }
 
+.archive-month {
+    grid-template-columns: clamp(6rem, 9vw, 11rem) minmax(0, 1fr);
+}
+
+.archive-entry {
+    flex-wrap: wrap;
+}
+
+.archive-entry-title {
+    flex: 1 1 28rem;
+    min-width: 0;
+}
+
 @media (max-width: 48rem) {
+    :root[data-nf-style="wild"] .main:has(.archive-posts) {
+        width: calc(100% - 0.75rem);
+    }
+
+    .archive-year,
+    .archive-month {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
     .archive-year > .archive-month {
         grid-column: 1;
     }
