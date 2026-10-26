@@ -1,0 +1,14 @@
+/* Use a solid dark canvas when the light paper texture cannot be blended. */
+:root[data-nf-style="wild"] {
+    background-color: var(--nf-colour-paper);
+}
+
+:root[data-nf-style="wild"][data-theme="dark"] body {
+    background-image: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root[data-nf-style="wild"][data-theme="auto"] body {
+        background-image: none;
+    }
+}
