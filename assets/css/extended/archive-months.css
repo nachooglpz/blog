@@ -1,0 +1,11 @@
+/* Keep every month in the content column of the archive year grid. */
+.archive-year > .archive-month {
+    grid-column: 2;
+    min-width: 0;
+}
+
+@media (max-width: 48rem) {
+    .archive-year > .archive-month {
+        grid-column: 1;
+    }
+}
