@@ -17,7 +17,7 @@ opening:
   headline: "Nacho's blog"
   deck: "Mostly databases and operating systems!"
 
-featured_argument: "/blog/008-the-challenges-of-ssd-writes/"
+featured_argument: "/blog/009-reducing-ssd-writes-with-compression/"
 
 questions:
   - ""
@@ -42,4 +42,4 @@ A digital garden.
 
 This is a site for self-expression to share what I learn through my journey as a software engineer.
 Here you’ll find systems-related topics.
-Please remember that all of the opinions in this corner are entirely of my own.
+Please remember that all the opinions in this corner are entirely of my own.
