@@ -11,7 +11,7 @@
     <p class="nf-component__label">
         {{- with $model.Content.Format }}{{ . | humanize }}{{ else }}{{ .Kind | humanize }}{{ end -}}
     </p>
-    <h3 class="nf-entry__title"><a href="{{ $href }}"{{ if $external }} rel="external"{{ end }}>{{ .LinkTitle }}</a></h3>
+    <h3 class="nf-entry__title"><a href="{{ $href }}"{{ if $external }} target="_blank" rel="external noopener noreferrer"{{ end }}>{{ .LinkTitle }}{{ if $external }}<span class="nf-visually-hidden"> (opens in a new tab)</span>{{ end }}</a></h3>
     {{- with .Params.subtitle }}
     <p class="post-description">{{ . }}</p>
     {{- else }}

@@ -28,7 +28,7 @@
     {{- end -}}>
     <header class="entry-header">
         {{- printf "<h%d class=\"entry-hint-parent nf-entry__title\">" $headingLevel | safeHTML -}}
-            <a href="{{ $href }}"{{ if $external }} rel="external"{{ end }}>{{ $page.LinkTitle }}</a>
+            <a href="{{ $href }}"{{ if $external }} target="_blank" rel="external noopener noreferrer"{{ end }}>{{ $page.LinkTitle }}{{ if $external }}<span class="nf-visually-hidden"> (opens in a new tab)</span>{{ end }}</a>
             {{- if $page.Draft }}
             <span class="entry-hint">{{ i18n "nf_draft" | default "Draft" }}</span>
             {{- end }}
