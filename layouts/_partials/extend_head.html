@@ -1,0 +1,4 @@
+{{ with resources.Get "favicon.png" }}
+  {{ $favicon := .Filter images.Invert }}
+  <link rel="icon" type="image/png" href="{{ $favicon.RelPermalink }}">
+{{ end }}
