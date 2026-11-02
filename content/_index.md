@@ -35,7 +35,7 @@ visual:
     - "Science"
     - "studies"
     - "the machine"
-  wild_reference: "Made with <3"
+  wild_reference: "Curated with <3"
 ---
 
 A digital garden.

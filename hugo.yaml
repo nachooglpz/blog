@@ -3,7 +3,7 @@ title: Nacho's Blog
 locale: en-AU
 defaultContentLanguage: en
 theme: no-fate
-# copyright: What we make for ourselves
+copyright: CC BY-NC-SA 4.0
 enableRobotsTXT: true
 
 pagination:
@@ -66,7 +66,7 @@ params:
   footer:
     hideCopyright: true
     hidePoweredBy: true
-    text: "A digital garden curated with <3"
+    text: "[© CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)"
   label:
     text: Nacho's blog
   noFate:
