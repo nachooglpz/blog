@@ -12,7 +12,7 @@ visual:
 
 contacts:
   email: "nachooglpz@proton.me"
-  bluesky: "@nachoo.bsky.social"
+  bluesky: "@nacho.fyi"
   keybase: "@nachooglpz"
 ---
 
