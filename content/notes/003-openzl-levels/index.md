@@ -50,7 +50,7 @@ A higher compression level may allow OpenZL to use more expensive match-finding 
 
 **Default level:** 6
 
-For the numeric data type, the [Compression Transformer](/notes/000-compression-transformer/) can be set by establishing the compression level to 7.
+For the numeric data type, the [Compression Transformer](/notes/004-compression-transformer/) can be set by establishing the compression level to 7.
 
 ## Decompression Level
 
