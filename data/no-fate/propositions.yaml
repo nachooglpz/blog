@@ -5,3 +5,5 @@ propositions:
     title: Cool coding topics that I didn’t learn at school.
   - id: cool-design
     title: Cool program designs and study cases.
+  - id: compression
+    title: All-things compression!
