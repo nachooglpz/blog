@@ -25,6 +25,7 @@ questions:
 selected_writing:
   - "/blog/003-what-happened-to-map-reduce/"
   - "/blog/004-the-case-for-branchless-programming/"
+  - "/notes/001-how-to-write-to-ssds/"
 
 featured_archive: "/archives/011-computer-science-as-empirical-inquiry-symbols-and-search/"
 

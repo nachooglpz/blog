@@ -8,7 +8,7 @@ tags:
 
 content:
   format: "note"
-  status: "draft"
+  status: "published"
   original_date: null
 
 editorial:
